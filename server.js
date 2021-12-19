@@ -3,6 +3,10 @@ const path = require('path')
 
 const app = express()
 
+app.use('*', (req, res) => {
+    res.sendFile(path.resolve(__dirname, 'public', 'index.html'))
+})
+
 app.use(express.static(path.join(__dirname, 'public')))
 
 app.listen(5000, console.log('Server listening on port 5000'))
