@@ -21,14 +21,14 @@ $(document).ready(function(){
         $('.menu-btn i').toggleClass("active");
     });
 
-    // typing text animation script
-    var typed = new Typed(".typing", {
-        strings: ["Student", "Junior Developer", "Designer"],
-        backSpeed: 60,
-        typeSpeed: 99,
+    // // typing text animation script
+    // var typed = new Typed(".typing", {
+    //     strings: ["Student", "Junior Developer", "Designer"],
+    //     backSpeed: 60,
+    //     typeSpeed: 99,
         
-        loop: true
-    });
+    //     loop: true
+    // });
 
     // owl carousel script
     $('.carousel').owlCarousel({
